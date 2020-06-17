@@ -15,12 +15,12 @@
     treatment: "one"
 - correct_data_split:
     treatment: "on"
-    config: "this applies only to ON treatment"
+    config: "{\"test\":\"this applies only to ON treatment\"}"
     percentage: "50"
 - correct_data_split:
     treatment: "off"
     keys: ["key1", "key2"]
-    config: "this applies only to OFF treatment"
+    config: "{\"test\":\"this applies only to OFF treatment\"}"
 - no_treatment_split:
 - diiff_treatment_names_split:
     treatment: "high"
